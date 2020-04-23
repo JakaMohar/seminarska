@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #1e272e;
+}
+
+.okvir {
+    width: 100%;
+}
+
+h1 {
+    background: -webkit-linear-gradient(#fff, #fff, rgba(0, 0, 0, 0.5));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-left: -6px;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    text-shadow:
+}
+
+#vegas {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
