@@ -1,2 +1,3 @@
 # seminarska
-to do
+29.04.2020
+VPO
