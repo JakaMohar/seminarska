@@ -1,11 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #d2dae2;
     margin: 0;
     background-color: #1e272e;
 }
 
-.okvir {
-    width: 100%;
+#okvir {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 h1 {
@@ -14,15 +17,86 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
-    margin-left: -6px;
+    margin-left: 25px;
     color: white;
-    font-size: 75px;
-    text-align: center;
-    text-shadow:
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
 }
 
 #vegas {
     position: absolute;
     top: 25px;
     right: 25px;
+}
+
+#holder {
+    width: 32%;
+    margin: 0 auto;
+}
+
+#video {
+    width: 99.35%;
+    height: 740px;
+    margin-top: 10px;
+    border: 5px solid white;
+    border-style: outset;
+}
+
+table,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    vertical-align: top;
+}
+
+a {
+    color: #27ae60;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #2ecc71;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #546775;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#izdelava {
+    position: absolute;
+    top: 27px;
+    right: 290px;
+    font-size: 22px;
+}
+
+.gui {
+    float: right;
+    width: 30%;
+}
+
+.slika {
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.slikaholder {
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.part {
+    flex: 1;
 }
